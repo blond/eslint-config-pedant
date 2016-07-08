@@ -38,7 +38,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^3.0.0"
+    "eslint": "^3.0.1"
   },
   "scripts": {
     "test": "eslint ."
