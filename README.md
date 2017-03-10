@@ -1,6 +1,8 @@
 eslint-config-pedant
 ====================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/blond/eslint-config-pedant.svg)](https://greenkeeper.io/)
+
 [![NPM Status][npm-img]][npm]
 [![Travis Status][test-img]][travis]
 
