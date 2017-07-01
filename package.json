@@ -36,11 +36,11 @@
     "node": ">= 4"
   },
   "peerDependencies": {
-    "eslint": "^3.3.0"
+    "eslint": "4.x"
   },
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^3.3.0"
+    "eslint": "^4.1.1"
   },
   "scripts": {
     "test": "eslint ."
