@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pedant",
-  "version": "0.10.0",
+  "version": "1.0.0",
   "description": "Pedant preset for eslint",
   "license": "MIT",
   "repository": "blond/eslint-config-pedant",
