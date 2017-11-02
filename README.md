@@ -146,7 +146,7 @@ However, due to the nature of ESLint, it's not always clear when a minor or majo
     * An existing rule is removed (if rule is not deprecated).
     * Part of the public API is removed or changed in an incompatible way (removed presets, etc.).
 
-According to our policy, any minor update may report more errors than the previous release (ex: from a bug fix). As such, we recommend using the tilde (`~`) in `package.json` e.g. `"eslint-config-pedant": "~0.8.0"` to guarantee the results of your builds.
+According to our policy, any minor update may report more errors than the previous release (ex: from a bug fix). As such, we recommend using the tilde (`~`) in `package.json` e.g. `"eslint-config-pedant": "~1.0.0"` to guarantee the results of your builds.
 
 License
 -------
