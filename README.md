@@ -68,6 +68,16 @@ Presets
 
 By default rules are suitable for `ECMAScript 2015` or higher.
 
+For `ECMAScript 2015` or higher, your config file should look like this:
+```json
+{
+  "extends": "pedant",
+  "parserOptions": {
+    "ecmaVersion": 6
+  }
+}
+```
+
 If you are not using `ECMAScript 2015`, you can choose the config for `ECMAScript 5`:
 
 ```json
