@@ -1,6 +1,49 @@
 Changelog
 =========
 
+v1.0.0 (2017-11-02)
+-------------------
+
+### Dependencies
+
+* Requires an ESLint of at least `v4.2.0` (@blond [#67]).
+* Droped support for ESLint v3 (@blond [#67]).
+
+[#67]: https://github.com/blond/eslint-config-pedant/pull/67
+
+### Common Rules
+
+* Added the [block-scoped-var] rule (@blond [#63]).
+
+[block-scoped-var]: http://eslint.org/docs/rules/block-scoped-var
+
+[#63]: https://github.com/blond/eslint-config-pedant/pull/63
+
+### ES5 & ES2015 Rules
+
+* Added the [getter-return] rule to `es5` and `es2015` presets (@blond [#64]).
+* Added the [accessor-pairs] rule to `es5` and `es2015` presets (@blond [#66]).
+
+[getter-return]: http://eslint.org/docs/rules/getter-return
+[accessor-pairs]: http://eslint.org/docs/rules/accessor-pairs
+
+[#64]: https://github.com/blond/eslint-config-pedant/pull/64
+[#66]: https://github.com/blond/eslint-config-pedant/pull/66
+
+### Bug Fixes
+
+* Fixed [class-methods-use-this] rule: should ignore base object methods (@blond [#62]).
+
+[class-methods-use-this]: http://eslint.org/docs/rules/class-methods-use-this
+
+[#62]: https://github.com/blond/eslint-config-pedant/pull/62
+
+### Documentation
+
+* Updated preset section for `es2015` (@jt3k [#60]).
+
+[#60]: https://github.com/blond/eslint-config-pedant/pull/60
+
 v0.10.0 (2017-07-02)
 -------------------
 
