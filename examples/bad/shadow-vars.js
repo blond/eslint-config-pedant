@@ -30,3 +30,13 @@ switch (foo) {
 
 /*eslint no-empty-pattern: "error"*/
 var { a: {} } = foo; // doesn't create any variables
+
+/*eslint block-scoped-var: "error"*/
+
+function doTryCatch() {
+    try {
+        var build = 1;
+    } catch (e) {
+        var f = build;
+    }
+}
